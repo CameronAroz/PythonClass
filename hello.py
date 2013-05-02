@@ -35,7 +35,7 @@ print "my name is {}".format(person_name)
 print "my favorite number is {}".format(favorite_number)
 
 #List all the things I have my favorite number of
-print "{} has {} books in {} collection".format(person_name,favorite_number,gender)
-print "{} has seen {} of {} favorite movies".format(person_name,favorite_number,gender)
-print "{} has {} pairs of socks in {} drawer.".format(person_name,favorite_number,gender)
+print "{} has {} books in {} collection".format(person[0],person[1],person[2])
+print "{} has seen {} of {} favorite movies".format(person[0],person[1],person[2])
+print "{} has {} pairs of socks in {} drawer.".format(person[0],person[1],person[2])
 
