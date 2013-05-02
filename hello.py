@@ -1,25 +1,19 @@
-#Python Class 2:
+###Python Class 3:
+#Tuples
+#Variable Declarations
+#Lists: Similar to a Tuple
 
-# Review::
-#1. git init the directory
-#2. git status to make sure everything is working correctly
-#3. git add <filename>: had to add the file
-#4. git commit -m "Comments"
-#   Comments the changes that you made
-#5. git log
+##Accessing the specific "sys" library
+from sys import argv
 
-
-
-#Python Class 3:
-
-##Python Counting: Arrays have starting positions at 0
-##Python: Reads from top to bottom
+#Note to self: argv gets us the [program_name, name, number, gender]
 
 
 ##Variable Declaration
-person_name = "Courtney"
-favorite_number = 21
-gender = "her"
+program_name = argv[0]
+person_name = argv[1]
+favorite_number = argv[2]
+gender = argv[3]
 
 ##Type of Object: Tuple
 #Creating a variable, person, and assigning three traits to it
@@ -27,26 +21,17 @@ gender = "her"
 #Cannot change an individual element of a tuple
 person = (person_name, favorite_number, gender)
 
+
 #**SHORTCUT**#
 #Assigns Variables All at Once Instead of One at a Time
 new_name, new_number, new_gender = ('Paul',16,'his')
-
-
 andrew = ('Andrew',6,'his')
 courtney = ('Courtney',21,'her')
 
-print andrew[0]
-print andrew[1]
-print andrew[2]
-
 ##Reassigned the variable person to be andrew
 person = andrew
-
-##Can access elements in an array through indexing
+##Can access elements in a tuple through indexing
 #person[0] -> references person_name. 
-print person[0]
-print person[1]
-print person[2]
 
 ##Populates the {} with the variable that is above
 print "Howdy"
