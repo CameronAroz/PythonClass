@@ -5,7 +5,9 @@
 ##To change a string into an integer
 #int("12")
 ##To change aninteger into a string
-#str(3)
+#str(3
+##Python is Case Sensitive
+
 
 ##Substitution in Strings
 #print "I have {} cars".format(3)
@@ -38,11 +40,17 @@ print teacher_name
 print range(20)
 
 
-
 ###Prints "I love pizza" 2 times
 for iteration in range(2):
 	print "Loop " + str(iteration) + ": I love pizza"
 	print "Loop {}: I love pizza".format(iteration)
+	
+##Returns True/False concerning whether or not something is in the list
+#'boolean' is a data type that only represents: True or False //Not a String
+print 'andrew' in teachers_name
+print 'andrew' not in teachers name
+
+
 	
 	
 
