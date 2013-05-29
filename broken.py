@@ -46,7 +46,7 @@ def main():
          'star': 'Robert Downey Jr',
          'rating': 58},
 
-        {'name': 'Life of Pi'
+        {'name': 'Life of Pi',
          'rating': '65'},
 
         {'name': 'Christian Bale',
