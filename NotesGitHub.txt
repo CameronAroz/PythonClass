@@ -1,0 +1,5 @@
+Three Things to Note About Cameron's Code:
+
+1. He could be more descriptive in his Commits
+2. More Commenting
+3. The code is readable!
